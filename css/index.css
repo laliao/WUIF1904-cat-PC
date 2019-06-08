@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    direction: none;
+}
+body{
+    background-color:#F5F5F5;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+/*中图*/
+.centert{
+    height:90px;
+    width:1230px;
+    margin:15px auto 0;
+    overflow: hidden;
+}
+.centert img{
+    height:90px;
+    width:auto;
+    margin-left:-165px;
+}
+
+/*美丽人生*/
+.beauty{
+    width:1230px;
+    height:665px;
+    margin:20px auto 0;
+}
+.beauty .top{
+height:36px;
+width:100%;
+overflow: hidden;
+}
+.beauty .top .strip{
+    height:18px;
+    width:5px;
+    background-color:#333; 
+    vertical-align:middle;
+    display:inline-block;
+}
+.beauty .top .title{
+    font-size:18px;
+    height:36px;
+    line-height:36px;
+    color:#000;
+    display:inline-block;
+    margin-left:10px;
+}
+.beauty .top .title .en{
+    padding-left:10px;
+}
+
+.beauty .bottom{
+    width: 100%;
+    height: 618px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.beauty .bottom .left{
+    float:left;
+    height:618px;
+    width:235px;
+    position: relative;
+}
+.beauty .bottom .left .image{
+    height:618px;
+    width:235px;
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+.beauty .bottom .left .image img{
+    width:235px;
+    height:auto;
+}
+.beauty .bottom .left .cover{
+    height:618px;
+    width:235px;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color:#fff;
+    opacity: 0;
+}
+.beauty .bottom .left .cover:hover{
+    opacity: 0.2;
+}
+.beauty .bottom .left .text{
+    width:200px;
+    height:64px;
+    position: absolute;
+    left:0;
+    bottom:20%;
+}
+.beauty .bottom .left .text .left1{
+    height:64px;
+    width:70px;
+    background-color:rgba(0,0,0,0.9);
+    float:left;
+    font-size:18px;
+    line-height:24px;
+    text-align:center;
+    color:#fff;
+    padding:8px 17px;
+    box-sizing:border-box;
+}
+.beauty .bottom .left .text .right{
+    height:64px;
+    width:128px;
+    background-color:rgba(0,0,0,0.6);
+    float:left;
+    padding:8px 0 8px 10px;
+    box-sizing:border-box;
+}
+.beauty .bottom .left .text .right .text1{
+    font-size:18px;
+    color:#fff;
+    line-height:24px;
+}
+.beauty .bottom .left .iconfont{
+    font-size:32px;
+    display:block;
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    color:#fff;
+}
+
+.beauty .bottom .right{
+    height:618px;
+    width:995px;
+    float:left;
+    overflow: hidden;
+}
+.beauty .bottom .right .box{
+    height:301px;
+    width:235px;
+    background-color:#fff;
+    border:1px solid #fff;
+    box-sizing:border-box;
+    float:left;
+    margin-left:14px;
+    background-color:#fff;
+}
+.beauty .bottom .right .box:hover{
+    border-color:#FF0036;
+}
+.beauty .bottom .right .boxb{
+    margin-bottom:15px;
+}
+.beauty .bottom .right .boxl{
+    margin-left:13px;
+}
+.beauty .bottom .right .box .image{
+    height:185px;
+    width:235px;
+    margin-top:20px;
+}
+.beauty .bottom .right .box .image img{
+    height:185px;
+    width:185px;
+    display:block;
+    margin:0 auto;
+}
+.beauty .bottom .right .box .text{
+    height:40px;
+    width:135px;
+    font-size:14px;
+    color:#333;
+    margin:8px auto;
+    overflow:hidden;
+    line-height:20px;
+    text-align:center;
+}
+.beauty .bottom .right .box .price{
+    height:18px;
+    width:100%;
+    font-size:14px;
+    color:#FF0036;;
+    margin:10px auto;
+    line-height:18px;
+    text-align:center;
+}
+
+/*天猫国际*/
+.inter .bottom .right .box1 .text1{
+    font-size:18px;
+    line-height:24px;
+    height:24px;
+    width:auto;
+    margin-top:20px;
+    margin-left:25px;
+    color:#000;
+}
+.inter .bottom .right .box1 .text2{
+    font-size:14px;
+    line-height:18px;
+    height:18px;
+    width:auto;
+    margin-left:25px;
+    color:#7A45E5;
+}
+.inter .bottom .right .box1 .image{
+    height:170px;
+    width:100%;
+    margin-top:30px;
+}
+.inter .bottom .right .box1 .image img{
+    height:170px;
+    width:170px;
+    display:block;
+    margin:0 auto;
+}
+.inter .bottom .left{
+    float:left;
+    height:618px;
+    width:235px;
+}
+.inter .bottom .left .top1{
+    height:301px;
+    width:100%;
+    background: #333;
+    margin-bottom:15px;
+}
+.inter .bottom .left .top2{
+    height:301px;
+    width:100%;
+    background: #333;
+}
+
+
+
+
+
+/*.beauty .bottom .left .image{
+    height:618px;
+    width:235px;
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+.beauty .bottom .left .image img{
+    width:235px;
+    height:auto;
+}
+.beauty .bottom .left .cover{
+    height:618px;
+    width:235px;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color:#fff;
+    opacity: 0;
+}
+.beauty .bottom .left .cover:hover{
+    opacity: 0.2;
+}
+.beauty .bottom .left .text{
+    width:200px;
+    height:64px;
+    position: absolute;
+    left:0;
+    bottom:20%;
+}
+.beauty .bottom .left .text .left1{
+    height:64px;
+    width:70px;
+    background-color:rgba(0,0,0,0.9);
+    float:left;
+    font-size:18px;
+    line-height:24px;
+    text-align:center;
+    color:#fff;
+    padding:8px 17px;
+    box-sizing:border-box;
+}
+.beauty .bottom .left .text .right{
+    height:64px;
+    width:128px;
+    background-color:rgba(0,0,0,0.6);
+    float:left;
+    padding:8px 0 8px 10px;
+    box-sizing:border-box;
+}
+.beauty .bottom .left .text .right .text1{
+    font-size:18px;
+    color:#fff;
+    line-height:24px;
+}
+.beauty .bottom .left .iconfont{
+    font-size:32px;
+    display:block;
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    color:#fff;
+}*/
+
