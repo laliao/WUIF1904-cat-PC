@@ -4,7 +4,7 @@
     list-style:none;
 }
 a{
-    direction: none;
+     text-decoration: none;
 }
 body{
     background-color:#F5F5F5;
@@ -193,6 +193,41 @@ overflow: hidden;
 }
 
 /*天猫国际*/
+.inter .top1{
+    height:36px;
+    width:100%;
+    overflow: hidden;
+    vertical-align:middle;
+}
+.inter .top .image{
+    height:25px;
+    width:214px;
+    float:left;
+}
+.inter .top .image img{
+    height:25px;
+    width:214px;
+}
+.inter .top .right{
+    height:36x;;
+    width:600px;
+    float:right;
+    vertical-align:middle;
+}
+.inter .top .right .box{
+    width:auto;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    color:#000;
+    display:block;
+    margin:5px 10px;
+    float:right;
+    border:none;
+}
+.inter .top .right .box:hover{
+    border-bottom:1px solid #000;
+}
 .inter .bottom .right .box1 .text1{
     font-size:18px;
     line-height:24px;
@@ -221,41 +256,32 @@ overflow: hidden;
     display:block;
     margin:0 auto;
 }
-.inter .bottom .left{
+.inter .bottom .left1{
     float:left;
     height:618px;
     width:235px;
 }
-.inter .bottom .left .top1{
+
+.inter .bottom .left1 .top1{
     height:301px;
     width:100%;
-    background: #333;
     margin-bottom:15px;
+    position: relative;
 }
-.inter .bottom .left .top2{
+.inter .bottom .left1 .top1 .image{
     height:301px;
     width:100%;
-    background: #333;
-}
-
-
-
-
-
-/*.beauty .bottom .left .image{
-    height:618px;
-    width:235px;
     position: absolute;
     left:0;
     top:0;
     overflow: hidden;
 }
-.beauty .bottom .left .image img{
+.inter .bottom .left1 .top1 .image img{
     width:235px;
     height:auto;
 }
-.beauty .bottom .left .cover{
-    height:618px;
+.inter .bottom .left1 .top1  .cover{
+    height:301px;
     width:235px;
     position: absolute;
     left:0;
@@ -263,17 +289,17 @@ overflow: hidden;
     background-color:#fff;
     opacity: 0;
 }
-.beauty .bottom .left .cover:hover{
+.inter .bottom .left1 .top1  .cover:hover{
     opacity: 0.2;
 }
-.beauty .bottom .left .text{
+.inter .bottom .left1 .top1  .text{
     width:200px;
     height:64px;
     position: absolute;
     left:0;
     bottom:20%;
 }
-.beauty .bottom .left .text .left1{
+.inter .bottom .left1 .top1  .text .left{
     height:64px;
     width:70px;
     background-color:rgba(0,0,0,0.9);
@@ -285,7 +311,7 @@ overflow: hidden;
     padding:8px 17px;
     box-sizing:border-box;
 }
-.beauty .bottom .left .text .right{
+.inter .bottom .left1 .top1 .text .right{
     height:64px;
     width:128px;
     background-color:rgba(0,0,0,0.6);
@@ -293,17 +319,27 @@ overflow: hidden;
     padding:8px 0 8px 10px;
     box-sizing:border-box;
 }
-.beauty .bottom .left .text .right .text1{
+.inter .bottom .left1 .top1 .text .right .text1{
     font-size:18px;
     color:#fff;
     line-height:24px;
 }
-.beauty .bottom .left .iconfont{
+.inter .bottom .left1 .top1 .iconfont{
     font-size:32px;
     display:block;
     position: absolute;
     bottom:15px;
     right:15px;
     color:#fff;
-}*/
+}
+.inter .bottom .left1 .top2{
+    height:301px;
+    width:100%;
+}
+
+
+
+
+
+
 
